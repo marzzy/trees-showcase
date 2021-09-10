@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# package-lock (use yarn instead of npm)
+package-lock.json
+
+# local relative files (no need it to be in the repo)
+card-examples*.png
