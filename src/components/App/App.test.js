@@ -3,6 +3,6 @@ import App from './App';
 
 test('render header', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Tree Showcase/i);
-  expect(linkElement).toBeInTheDocument();
+  const headerElement = screen.getByText(/Tree Showcase/i);
+  expect(headerElement).toBeInTheDocument();
 });

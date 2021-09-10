@@ -1,0 +1,5 @@
+{
+  "name": "loading",
+  "private": true,
+  "main": "./Loading.js"
+  }
