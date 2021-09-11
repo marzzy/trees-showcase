@@ -30,7 +30,6 @@ function Card(props) {
           data-testid="card-image-replacement"
         >
           <img
-            data-testid="card-image-replacement"
             src={getRndImgReplacmentTree()}
             alt="logo"
           />
