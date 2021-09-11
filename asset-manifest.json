@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/marzzy/trees-showcase/static/css/main.d362c9d4.chunk.css",
+    "main.js": "/marzzy/trees-showcase/static/js/main.ca554c2a.chunk.js",
+    "main.js.map": "/marzzy/trees-showcase/static/js/main.ca554c2a.chunk.js.map",
+    "runtime-main.js": "/marzzy/trees-showcase/static/js/runtime-main.681321d7.js",
+    "runtime-main.js.map": "/marzzy/trees-showcase/static/js/runtime-main.681321d7.js.map",
+    "static/js/2.27e810ee.chunk.js": "/marzzy/trees-showcase/static/js/2.27e810ee.chunk.js",
+    "static/js/2.27e810ee.chunk.js.map": "/marzzy/trees-showcase/static/js/2.27e810ee.chunk.js.map",
+    "index.html": "/marzzy/trees-showcase/index.html",
+    "static/css/main.d362c9d4.chunk.css.map": "/marzzy/trees-showcase/static/css/main.d362c9d4.chunk.css.map",
+    "static/js/2.27e810ee.chunk.js.LICENSE.txt": "/marzzy/trees-showcase/static/js/2.27e810ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.681321d7.js",
+    "static/js/2.27e810ee.chunk.js",
+    "static/css/main.d362c9d4.chunk.css",
+    "static/js/main.ca554c2a.chunk.js"
+  ]
+}
