@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "craco start",
+    "start-docker": "docker-compose -f docker-compose.yml up",
     "build": "craco build",
     "test": "craco test",
     "predeploy": "npm run build",
