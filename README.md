@@ -1,6 +1,17 @@
 # Ecosia trees
 
-This is a simple tree showcase page powered by [Create React App](https://github.com/facebook/create-react-app).
+This is a simple tree showcase page which deployed on [its github page](https://marzzy.github.io/trees-showcase/).
+
+<br />
+
+## Tools
+
+1. [Create React App](https://github.com/facebook/create-react-app)
+2. [Tailwind](https://tailwindcss.com/) : As styling tool
+3. [React Testing Library](https://testing-library.com/react) : As testing tool
+4. [Eslint with airbnb rules](https://airbnb.io/javascript/)
+
+<br />
 
 ## Available Scripts
 
@@ -8,31 +19,31 @@ This is a simple tree showcase page powered by [Create React App](https://github
 
 Clone the projet then use the `yarn` command in the project directory to install all the dependenies, then you can run:
 
-### `yarn start`
+- #### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+  The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn start-docker`
+- #### `yarn start-docker`
 
-(**Use docker and docker-compose instead of install all the dependencies on the machine**)\
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  (**Use docker and docker-compose instead of install all the dependencies on the machine**)\
+  Runs the app in the development mode.\
+  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits on src file.\
-You will also see any lint errors in the console.
+  The page will reload if you make edits on src file.\
+  You will also see any lint errors in the console.
 
-### `yarn test`
+- #### `yarn test`
 
-Launches the test runner in the interactive watch mode.
+  Launches the test runner in the interactive watch mode.
 
-### `yarn build`
+- #### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Builds the app for production to the `build` folder.\
+  It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  The build is minified and the filenames include the hashes.\
+  Your app is ready to be deployed!
