@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
-import './Error.css';
+import errorTree from 'assets/error-tree.png';
 
 function Error(props) {
   const { msg } = props;
 
   return (
-    <div className="flex justify-center align-center bg-red-900 py-10">
-      <i className="warning-icon" />
+    <div className="flex justify-center items-center bg-red-900 py-10">
+      <img src={errorTree} alt="error" />
       <div className="px-3">
         Oops!
         <br />

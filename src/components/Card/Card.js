@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import getRndImgReplacmentTree from 'utils/RandomTree';
 import './Card.css';
 
 function Card(props) {
@@ -20,7 +21,6 @@ function Card(props) {
         <img
           className="w-60 h-60 rounded-full my-4 bg-gray-600 img-animation"
           data-testid="card-image"
-          loading="lazy"
           src={imageSrc}
           alt={name}
         />
@@ -29,12 +29,17 @@ function Card(props) {
           className="w-60 h-60 rounded-full my-4 text-8xl flex items-center justify-center bg-gray-600 img-animation"
           data-testid="card-image-replacement"
         >
-          ?
+          <img
+            data-testid="card-image-replacement"
+            src={getRndImgReplacmentTree()}
+            alt="logo"
+          />
         </div>
+
       )}
       <button
         type="button"
-        className="bg-green-200 p-4 text-gray-600 hover:bg-gray-600 hover:text-green-200"
+        className="bg-green-200 p-4 text-gray-600 hover:bg-gray-600 hover:text-green-200 min-w-full"
         onClick={toggleShowImage}
       >
         {showImg ? 'Hide' : 'Show'}

@@ -5,7 +5,6 @@ import Error from 'components/ErrorBox';
 import NotFound from 'components/NotFound';
 import Card from 'components/Card';
 
-// Style App header
 function App() {
   const [cards, setCards] = useState(null);
   const [error, setError] = useState(null);
@@ -31,9 +30,9 @@ function App() {
 
   return (
     <div>
-      <header>
+      <header className="flex items-center p-5">
         <img src={logo} className="App-logo" alt="logo" />
-        <span className="bold">
+        <span className="px-4 text-4xl font-bold">
           Tree Showcase
         </span>
       </header>
