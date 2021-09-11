@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Loading from 'components/LoadingBox';
 import Error from 'components/ErrorBox';
 import NotFound from 'components/NotFound';
+import Card from 'components/Card';
 
 // Style App header
 function App() {
@@ -38,8 +39,18 @@ function App() {
       </header>
       {isLoading && <Loading />}
       {error && <Error msg={error} />}
-      {/* TODO: cards */}
-      {cards && <div> render cards </div>}
+      {cards && (
+        <div className="flex flex-wrap justify-around flex-col lg:flex-row">
+          {cards.map((cardData) => (
+            <Card
+              key={`${cardData.name}-${cardData.species_name}`}
+              name={cardData.name}
+              speciesName={cardData.species_name}
+              imageSrc={cardData.image}
+            />
+          ))}
+        </div>
+      )}
       {!isLoading && !cards && !error && <NotFound />}
     </div>
   );

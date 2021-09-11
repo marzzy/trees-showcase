@@ -1,0 +1,9 @@
+.img-animation {
+  animation-timing-function: ease-in;
+  animation: showImg 1s;
+}
+
+@keyframes showImg {
+  from { width: 0 }
+  to { width: 15rem; }
+}
